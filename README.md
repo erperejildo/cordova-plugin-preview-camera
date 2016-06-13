@@ -1,13 +1,13 @@
-cordova-plugin-camera-preview
+cordova-plugin-preview-camera
 ====================
 
 Please, take a look to the original repository:
-https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview
+https://github.com/cordova-plugin-preview-camera/cordova-plugin-preview-camera
 This repository contains a few changes like autofocus or zoom.
 
 Cordova plugin that allows camera interaction from HTML cod for showing camera preview below or above the HTML.<br/>
 
-**May 18, 2016 - Plugin is starting to be maintained again, current development to get a decent stable updated version is happening on the fork [westonganger/cordova-plugin-camera-preview](https://github.com/westonganger/cordova-plugin-camera-preview/tree/skanygin). This will be merged into master here once its working. Please direct all pull requests over there until further notice.**
+**May 18, 2016 - Plugin is starting to be maintained again, current development to get a decent stable updated version is happening on the fork [westonganger/cordova-plugin-preview-camera](https://github.com/westonganger/cordova-plugin-preview-camera/tree/skanygin). This will be merged into master here once its working. Please direct all pull requests over there until further notice.**
 
 <p><b>Features:</b></p>
 <ul>
@@ -24,13 +24,13 @@ Cordova plugin that allows camera interaction from HTML cod for showing camera p
 <p><b>Installation:</b></p>
 
 ```
-cordova plugin add https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git
+cordova plugin add https://github.com/cordova-plugin-preview-camera/cordova-plugin-preview-camera.git
 ```
 
 <b>Phonegap Build:</b><br/>
 
 ```
-<gap:plugin name="cordova-plugin-camera-preview" />
+<gap:plugin name="cordova-plugin-preview-camera" />
 ```
 
 <p><b>Methods:</b></p>
