@@ -2,7 +2,7 @@ cordova-plugin-preview-camera
 ====================
 
 Please, take a look to the original repository:
-https://github.com/cordova-plugin-preview-camera/cordova-plugin-preview-camera
+https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview
 This repository contains a few changes like autofocus or zoom.
 
 Cordova plugin that allows camera interaction from HTML cod for showing camera preview below or above the HTML.<br/>
