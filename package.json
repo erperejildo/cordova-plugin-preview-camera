@@ -22,7 +22,7 @@
     "url": "solidfoundationwebdev.com"
   },
   "license": "Apache 2.0",
-  "homepage": "https://github.com/cordova-plugin-preview-camera/cordova-plugin-preview-camera",
+  "homepage": "https://github.com/erperejildo/cordova-plugin-preview-camera",
   "dependencies": {
     "cordova": "*"
   },
