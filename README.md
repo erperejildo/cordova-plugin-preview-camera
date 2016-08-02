@@ -9,10 +9,9 @@ Features added and tested so far:<br>
 <ul>
 <li>Auto zoom</li>
 </ul>
-<br>
 All help would be really apreciated.<p>
 
-<bold>How to install with Meteor:</bold><br>
+<b>How to install with Meteor:</b><br>
 Type in your terminal `meteor add cordova:cordova-plugin-preview-camera@0.0.11` (this version could change).<br>
 Not tested in Meteor 1.4 yet.<br>
 
