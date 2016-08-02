@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-preview-camera",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Cordova plugin that allows camera interaction from HTML code. Show camera preview below or on top of the HTML.",
   "keywords": [
     "cordova",
