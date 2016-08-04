@@ -1,7 +1,7 @@
 cordova-plugin-preview-camera
 ====================
 
-This repository was copied with the idea to use it with <b>Meteor</b> with new features. The use for now is only with <b>Android</b><br/>
+This repository was copied with the idea to use it with <b>Meteor</b> with <b>new features</b>. The use for now is only with <b>Android</b><br/>
 If you've got problems related with these new features or using it with Meteor add here an issue here but for further info would be better to publish them into main repository here:</br>
 https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues
 
