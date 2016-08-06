@@ -371,13 +371,14 @@ public class CameraActivity extends Fragment {
 										finalPic = pic;
 									}
 
+									// DRR
 									//Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(finalPic.getWidth()), (int)(finalPic.getHeight()), matrix, false);
 									Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(maxWidth), (int)(maxHeight), matrix, false);
 
 									//get bitmap and compress
 									Bitmap picture = loadBitmapFromView(view.findViewById(getResources().getIdentifier("frame_camera_cont", "id", appResourcesPackage)));
 									ByteArrayOutputStream stream = new ByteArrayOutputStream();
-									picture.compress(Bitmap.CompressFormat.PNG, 80, stream);
+									picture.compress(Bitmap.CompressFormat.JPEG, 80, stream);
 
 									generatePictureFromView(originalPicture, picture);
 									canTakePicture = true;
@@ -661,9 +662,13 @@ class Preview extends RelativeLayout implements SurfaceHolder.Callback {
 			else {
 				Log.d(TAG, "center vertically");
 				int scaledChildHeight = (int)((previewHeight * width / previewWidth) * scale);
-				nW = (int)(width * scale);
-				nH = (height + scaledChildHeight) / 2;
-				top = (height - scaledChildHeight) / 2;
+				//nW = (int)(width * scale);
+				//nH = (height + scaledChildHeight) / 2;
+				//top = (height - scaledChildHeight) / 2;
+				// DRR
+				nW = previewWidth;
+                nH = previewHeight;
+                top = 0;
 				left = 0;
 			}
 			child.layout(left, top, nW, nH);
