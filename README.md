@@ -1,9 +1,24 @@
 cordova-plugin-preview-camera
 ====================
 
-Please, take a look to the original repository:
-https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview
-This repository contains a few changes like autofocus or zoom.
+This repository was copied with the idea to use it with <b>Meteor</b> with <b>new features</b>. The use for now is only with <b>Android</b><br/>
+If you've got problems related with these new features or using it with Meteor add here an issue here but for further info would be better to publish them into main repository here:</br>
+https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues
+
+Features added and tested so far:<br>
+<ul>
+<li>Auto zoom</li>
+</ul>
+All help would be really apreciated.<p>
+
+<b>How to install with Meteor:</b><br>
+Type in your terminal `meteor add cordova:cordova-plugin-preview-camera@0.0.11` (this version could change).<br>
+Not tested in Meteor 1.4 yet.<br>
+
+Npm: https://www.npmjs.com/package/cordova-plugin-preview-camera
+<p>
+
+------- Original info ---------<br>
 
 Cordova plugin that allows camera interaction from HTML cod for showing camera preview below or above the HTML.<br/>
 
