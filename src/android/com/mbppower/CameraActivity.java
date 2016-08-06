@@ -359,7 +359,7 @@ public class CameraActivity extends Fragment {
 									pictureView.setImageBitmap(fixedPic);
 									pictureView.layout(rect.left, rect.top, rect.right, rect.bottom);
 
-									/*Bitmap finalPic = null;
+									Bitmap finalPic = null;
 									//scale final picture
 									if(maxWidth > 0 && maxHeight > 0){
 										final double scaleHeight = maxWidth/(double)pic.getHeight();
@@ -371,9 +371,7 @@ public class CameraActivity extends Fragment {
 										finalPic = pic;
 									}
 
-									Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(finalPic.getWidth()), (int)(finalPic.getHeight()), matrix, false);*/
-
-									Bitmap finalPic = pic;
+									//Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(finalPic.getWidth()), (int)(finalPic.getHeight()), matrix, false);
 									Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(maxWidth), (int)(maxHeight), matrix, false);
 
 									//get bitmap and compress
