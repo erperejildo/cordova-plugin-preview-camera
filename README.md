@@ -7,7 +7,8 @@ https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/i
 
 Features added and tested so far:<br>
 <ul>
-<li>Auto zoom</li>
+<li>Auto focus</li>
+<li>Portrait and landscape zoom</li>
 </ul>
 All help would be really apreciated.<p>
 
