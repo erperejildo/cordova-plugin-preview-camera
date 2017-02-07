@@ -1,6 +1,8 @@
 cordova-plugin-preview-camera
 ====================
 
+This repo is no longer under maintenance because was merged to the original one.
+
 This repository is a copy of this other one
 https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues
 As discussed in this post this one is going to be used until the original one have more activity:
